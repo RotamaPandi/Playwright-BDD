@@ -1,0 +1,16 @@
+{
+  "name": "playwright-bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {"test": ""},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@playwright/test": "^1.45.1",
+    "@types/node": "^20.14.10",
+    "playwright-bdd": "^6.6.0"
+  }
+}
