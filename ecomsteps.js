@@ -11,7 +11,7 @@ Given('I navigate to {string}', async ({ page }, url) => {
 // 2. Missing step definition for "ecomlogin.feature:7:6"
 Given('I click on {string}', async ({ page }, My_account) => {
     await page.pause()
-  await page.getByRole('button', {name: My_account}).click();
+  await page.locator("//a[@id='login2']").click();
 });
 
 // 3. Missing step definition for "ecomlogin.feature:8:6"
